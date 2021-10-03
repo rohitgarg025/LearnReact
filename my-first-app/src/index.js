@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function Checkbox(){
+  const [checked, setChecked] = useState(false)
+
+  return (
+    <>
+    <input type = "checkbox" value = {checked} onClick = {() => setChecked(!checked)}/>
+    {checked ? "checked" : "not checked"}
+    </>
+  );
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
