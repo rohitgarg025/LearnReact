@@ -1,7 +1,15 @@
-const Header = () => {
+import Button from "./Button"
+import React from "react"
+const Header = ({title, onAdd, onShowAdd}) => {
+
+    const onClick = () => {
+        console.log("Click")
+    }
+
     return (
-        <header>
-            <h1>Task Tracker</h1>
+        <header className="header">
+            <h1>{title}</h1>
+            <Button color={onShowAdd?"red":"green"} btntext= {onShowAdd?"Close":"Add"} onClick = {onAdd}/>
         </header>
     )
 }
