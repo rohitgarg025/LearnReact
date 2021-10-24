@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "Feb 6th at 1:30 pm",
-      "reminder": true
-    },
-    {
       "id": 3,
       "text": "Machine Learning",
       "day": "Feb 6th at 1:30 pm",
@@ -17,6 +11,12 @@
       "text": "Applied Statistical Methods",
       "day": "Feb 6th at 1:30 pm",
       "reminder": true
+    },
+    {
+      "text": "Ted Talk",
+      "day": "24-10-2021",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
