@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 function App() {
 
   // state to toggle new task option
-  const [showAddTask,setShowAddTask] = useState(true)
+  const [showAddTask,setShowAddTask] = useState(false)
 
   const [tasks,setTasks] = useState([])
 

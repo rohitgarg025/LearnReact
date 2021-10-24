@@ -4,7 +4,7 @@
       "id": 3,
       "text": "Machine Learning",
       "day": "Feb 6th at 1:30 pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 4,

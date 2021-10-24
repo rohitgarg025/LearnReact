@@ -9,8 +9,8 @@ const Header = ({title, onAdd, onShowAdd}) => {
     return (
         <header className="header">
             <h1>{title}</h1>
-            <Button color={onShowAdd?"green":"red"} btntext= {onShowAdd?"Add":"Close"} onClick = {onAdd}/>
-        </header>
+            <Button color={onShowAdd?"red":"green"} btntext= {onShowAdd?"Close":"Add Task"} onClick = {onAdd}/>
+        </header> 
     )
 }
 
